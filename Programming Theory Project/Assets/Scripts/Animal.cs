@@ -9,7 +9,7 @@ public class Animal : MonoBehaviour
 
     private void OnMouseDown()
     {
-        MakeSound();
+        MakeSound(); // ABSTRACTION
     }
 
     protected virtual void MakeSound()
