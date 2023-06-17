@@ -4,4 +4,8 @@ using UnityEngine;
 
 public class Cat : Animal // INHERITANCE
 {
+    protected override void MakeSound() // POLYMORPHISM
+    {
+        screenText.text = "Cat saying 'meow-meow'";
+    }
 }
